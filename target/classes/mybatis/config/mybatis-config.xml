@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd" >
+
+<configuration>
+
+	<!-- mapUnderscoreToCamelCase : Member_NO == memberNo로 인식하는 옵션 -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	
+	<!-- typeAlias : com.prac.member.domain.MemberDTO == MemberDTO로 인식하는 옵션 -->
+	<typeAliases>
+		<typeAlias type="com.prac.member.domain.MemberDTO" alias="MemberDTO" />
+	</typeAliases>
+	
+</configuration>
