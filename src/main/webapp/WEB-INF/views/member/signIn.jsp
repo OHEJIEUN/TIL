@@ -8,9 +8,18 @@
 <meta charset="UTF-8">
 <title>SignIn</title>
 </head>
+<script src="../resources/js/jquery-3.6.0.js"></script>
+<script>
+	$(function(){
+		
+	})
+	
+
+	
+</script>
 <body>
 	
-	<form action="${contextPath}/member/signInMember" method="post">
+	<form id="signForm" action="${contextPath}/member/signInMember" method="post">
 		<table align="center">
 			<caption>회원가입</caption>
 			<tbody>
@@ -65,9 +74,11 @@
 			</tbody>
 			<tfoot>
 				<tr>
-					<td><input type="button" value="가입신청"></td>
-					<td><input type="button" value="다시입력"></td>
-					<td><input type="button" value="취소"></td>
+					<td>
+						<button>가입신청</button>
+						<input type="reset" value="다시입력">
+						<input type="button" value="취소" onclick="location.href='${contextPath}'">
+					</td>
 				</tr>
 			</tfoot>
 		</table>
