@@ -1,5 +1,5 @@
 # <회원가입 조건>
- ### 1. [정규식 정리](https://github.com/OHEJIEUN/TIL.wiki.git "regular expression")📖
+ ### 1. [정규식 정리]( https://github.com/OHEJIEUN/TIL/wiki/Regular-Expression "regular expression")📖
  ### 2. 조건
 - id, pw, email, address, socailNum 필수항목
 
